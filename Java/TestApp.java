@@ -1,13 +1,11 @@
-package Java;
+package Java; 
+ 
+ public class TestApp {  
 
-public class TestApp {
+ public static void main(String[] args){ 
+   for(int i = 0; i < 120; i++) { 
+     System.out.println("Testing: here " + i);    
+ }
+ } 
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Hello");
-    }
-    
-}
+ }
